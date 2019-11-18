@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#241332"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:padding="15dp"
+        android:layout_height="70dp"
+        android:text="     Daily task"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:background="@drawable/point_table"
+        />
+
+    <ScrollView
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".first_age"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="no.1"
+                android:layout_marginLeft="2dp"
+                android:padding="2dp"
+                android:layout_marginTop="32dp"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/second_q1"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:background="@drawable/questionshape"
+                android:text="Do you unplug your phone on time and turn off appliances that you are not using?" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="no.2"
+                android:layout_marginLeft="320dp"
+                android:padding="2dp"
+                android:layout_marginTop="32dp"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/second_q2"
+                android:layout_marginLeft="50dp"
+                android:padding="12dp"
+                android:background="@drawable/questionright"
+                android:layout_width="match_parent"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:layout_height="wrap_content"
+                android:text=" Do you buy local vegetables?" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="no.3"
+                android:layout_marginLeft="2dp"
+                android:padding="2dp"
+                android:layout_marginTop="32dp"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/second_q3"
+                android:background="@drawable/questionshape"
+                android:layout_width="300dp"
+                android:padding="20dp"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:layout_height="wrap_content"
+                android:text="Do you carry jute and cloth bag with you or refuse the plastic bag for longer period?" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="no.4"
+                android:layout_marginLeft="320dp"
+                android:padding="2dp"
+                android:layout_marginTop="32dp"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/second_q4"
+                android:layout_marginLeft="50dp"
+                android:padding="12dp"
+                android:background="@drawable/questionright"
+                android:layout_width="match_parent"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:layout_height="wrap_content"
+                android:text=" How often you go for dinner?"  />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="no.5"
+                android:layout_marginLeft="2dp"
+                android:padding="2dp"
+                android:layout_marginTop="32dp"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/second_q5"
+                android:background="@drawable/questionshape"
+                android:layout_width="300dp"
+                android:padding="28dp"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:layout_height="wrap_content"
+                android:text="Do you carry water bottle while travelling?                                                " />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="no.6"
+                android:layout_marginLeft="320dp"
+                android:padding="2dp"
+                android:layout_marginTop="32dp"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/second_q6"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:background="@drawable/questionright"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="50dp"
+                android:padding="12dp"
+                android:layout_height="wrap_content"
+                android:text=" Do you use Rechargeable battery?" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="no.7"
+                android:layout_marginLeft="2dp"
+                android:padding="2dp"
+                android:layout_marginTop="32dp"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/second_q7"
+                android:background="@drawable/questionshape"
+                android:layout_width="300dp"
+                android:padding="28dp"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:layout_height="wrap_content"
+                android:text="Did you turn off your light while sleeping?"                                                    />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="no.8"
+                android:layout_marginLeft="320dp"
+                android:layout_marginTop="32dp"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/second_q8"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:background="@drawable/questionright"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="50dp"
+                android:padding="12dp"
+                android:layout_height="wrap_content"
+                android:text=" Do you use lift in your building?" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text=""/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+

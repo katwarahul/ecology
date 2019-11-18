@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.test1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".third_age"
+            android:theme="@style/AppTheme.points"
+            android:label="Questions"
+            android:parentActivityName=".Rate"></activity>
+        <activity android:name=".second_age"
+            android:theme="@style/AppTheme.points"
+            android:label="Questions"
+            android:parentActivityName=".Rate"/>
+        <activity
+            android:name=".popup"
+            android:theme="@style/AppTheme.popup" />
+        <activity
+            android:name=".first_age"
+            android:theme="@style/AppTheme.points"
+            android:label="Questions"
+            android:parentActivityName=".Rate"
+            />
+        <activity
+            android:name=".Rate"
+            android:parentActivityName=".Navigation" />
+        <activity
+            android:name=".Points"
+            android:label="@string/title_activity_points"
+            android:theme="@style/AppTheme.points"
+            android:parentActivityName=".Navigation" />
+        <activity
+            android:name=".Main2Activity"
+            android:parentActivityName=".News"
+            android:theme="@style/AppTheme.points"/>
+        <activity
+            android:name=".News"
+            android:parentActivityName=".Navigation"
+            android:theme="@style/AppTheme.points"
+            android:label="News"/>
+        <activity
+            android:name=".Chatapp"
+            android:label="@string/Chat"
+            android:theme="@style/AppTheme.points"
+            android:parentActivityName=".Navigation" />
+        <activity android:name=".Navigation"
+            android:theme="@style/AppTheme.points"/>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>
